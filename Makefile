@@ -1,5 +1,6 @@
 SRC ?= main.tex
 OUT ?= $(basename $(SRC)).pdf
+LANG ?= en,es
 
 .PHONY: clean clear to_pdf new new_article_es new_article_en new_beamer_es new_beamer_en new_doc_es new_doc_en
 
