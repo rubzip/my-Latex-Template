@@ -1,0 +1,44 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+
+\usepackage{helvet} 
+\renewcommand{\familydefault}{\sfdefault}
+
+\usepackage[left=2.5cm, right=2.5cm, top=1.5cm, bottom=1.5cm]{geometry}
+\usepackage{parskip}
+
+\usepackage{array}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{graphicx}
+
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Textos del encabezado y pie traducidos
+\lhead{\textcolor{gray}{\small Document Title}} 
+\rhead{\textcolor{gray}{\small \today}} 
+\cfoot{\small Page \thepage\ of \pageref*{LastPage}} 
+
+\usepackage[colorlinks=true, linkcolor=blue, urlcolor=blue]{hyperref}
+
+\begin{document}
+
+\section*{Introduction}
+This is your improved template. Thanks to the \texttt{parskip} package, paragraphs no longer have indentation; instead, they are separated by a vertical space, giving it a much cleaner look.
+
+\section*{Lists and Styles}
+By using \texttt{enumitem} and \texttt{xcolor}, you can quickly create stylized lists:
+\begin{itemize}[leftmargin=*]
+    \item First item of the list.
+    \item Second item with an \href{https://en.wikipedia.org}{interactive blue link}.
+\end{itemize}
+
+\end{document}
