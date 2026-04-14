@@ -49,6 +49,7 @@ make new_beamer_en SRC=presentation.tex
 (Additionally) you can remove the templates folder if you no longer need the other base files:
 ```bash
 rm -rf templates/
+rm README.md
 ```
 
 
