@@ -14,4 +14,4 @@ sudo apt install texlive-lang-spanish
 ```
 
 ### VSCode Settings
-I encorage you to install ![LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop) extension by James Yu.
+I encorage you to install [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop) extension by James Yu.
